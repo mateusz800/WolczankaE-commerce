@@ -1,0 +1,34 @@
+version: '2'
+
+volumes:
+    db-data:
+    vendor:
+    var:
+
+services:
+    mariadb:
+        image: mariadb
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: wolczanka
+    apache:
+        container_name: prestashop-git
+        image: prestashop/prestashop-git:7
+        environment:
+            PS_INSTALL_AUTO: 1
+            DB_PASSWD: root
+            DB_NAME: wolczanka
+            links: mariadb:mariadb
+            depends_on: mariadb
+            PS_ENABLE_SSL: 1
+            PS_DOMAIN: localhost
+            PS_FOLDER_INSTALL: install-dev
+            PS_FOLDER_ADMIN: admin-dev
+        ports:
+            - "8001:80"
+        volumes:
+            - ./:/var/www/html/:delegated
+            - vendor:/var/www/html/vendor
+            - var:/var/www/html/var
+        restart: always
+

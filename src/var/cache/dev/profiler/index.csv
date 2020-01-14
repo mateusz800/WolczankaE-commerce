@@ -1,0 +1,12 @@
+b763ac,172.19.0.1,GET,http://localhost/admin-dev/index.php/_fragment?_path=_format%3Dhtml%26_locale%3Dpl-PL%26_controller%3DPrestaShopBundle%253AAdmin%255CCommon%253Apagination,1578943450,31b41e,200
+23a126,172.19.0.1,POST,http://localhost/admin-dev/index.php/common/notifications?_token=ZeRKqgrivW0D5Z3O3WUgWOZ51hY804uLUen7DQ5CWK0&rand=1578943351937,1578943459,,200
+31b41e,172.19.0.1,GET,http://localhost/admin-dev/index.php/configure/shop/seo-urls/?_token=ZeRKqgrivW0D5Z3O3WUgWOZ51hY804uLUen7DQ5CWK0,1578943454,,200
+1830d1,172.19.0.1,POST,http://localhost/admin-dev/index.php/common/notifications?_token=ZeRKqgrivW0D5Z3O3WUgWOZ51hY804uLUen7DQ5CWK0&rand=1578943463541,1578943472,,200
+6f29aa,172.19.0.1,POST,http://localhost/admin-dev/index.php/common/notifications?_token=ZeRKqgrivW0D5Z3O3WUgWOZ51hY804uLUen7DQ5CWK0&rand=1578943594522,1578943598,,200
+2d1f93,172.19.0.1,GET,http://localhost/admin-dev/index.php/configure/shop/preferences/preferences?_token=ZeRKqgrivW0D5Z3O3WUgWOZ51hY804uLUen7DQ5CWK0,1578943630,,200
+6e43b0,172.19.0.1,POST,http://localhost/admin-dev/index.php/common/notifications?_token=ZeRKqgrivW0D5Z3O3WUgWOZ51hY804uLUen7DQ5CWK0&rand=1578943633263,1578943638,,200
+983ae0,172.19.0.1,GET,http://localhost/admin-dev/index.php/configure/shop/preferences/preferences?_token=ZeRKqgrivW0D5Z3O3WUgWOZ51hY804uLUen7DQ5CWK0,1578943645,,200
+fcb2bf,172.19.0.1,POST,http://localhost/admin-dev/index.php/common/notifications?_token=ZeRKqgrivW0D5Z3O3WUgWOZ51hY804uLUen7DQ5CWK0&rand=1578943648543,1578943655,,200
+899572,172.19.0.1,POST,http://localhost/admin-dev/index.php/common/notifications?_token=ZeRKqgrivW0D5Z3O3WUgWOZ51hY804uLUen7DQ5CWK0&rand=1578943778405,1578943783,,200
+403bb2,172.19.0.1,POST,http://localhost/admin-dev/index.php/common/notifications?_token=ZeRKqgrivW0D5Z3O3WUgWOZ51hY804uLUen7DQ5CWK0&rand=1578943905742,1578943910,,302
+c063a9,172.19.0.1,GET,http://localhost/admin-dev/index.php/security/compromised?_token=qy-II-agy82-dUP2LY2i5rTHohyHg7HG-3Aa0_96WUc&uri=http%253A%252F%252Flocalhost%252Fadmin-dev%252Findex.php%252Fcommon%252Fnotifications%253F,1578943917,,200
