@@ -30,3 +30,9 @@ admin-dev/import/
 download/
 /img/*
 upload/
+
+# crawler
+crawler/kategorie.csv
+**/venv
+**/.vscode
+crawler/**/*.csv
